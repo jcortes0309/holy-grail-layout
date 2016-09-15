@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: yellow;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  overflow: auto;
+}
+
+.left-column {
+  background-color: blue;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 20%;
+  height: 80%;
+}
+
+.middle-column {
+  background-color: red;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  width: 60%;
+  height: 80%;
+}
+
+.right-column {
+  background-color: cyan;
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  width: 20%;
+  height: 80%;
+}
+
+.footer {
+  background-color: black;
+  position: absolute;
+  top: 90%;
+  left: 0;
+  width: 100%;
+  height: 10%;
+}
